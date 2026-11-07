@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>Happy Birthday Cintaku!</title>
+    <title>Happy Birthday My Love Novanda!</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Outfit:wght@300;400;600&display=swap"
         rel="stylesheet">
@@ -13,7 +13,7 @@
 
 <body>
     <audio id="bg-music" loop>
-        <source src="audio/Shape-of-My-Heart.mp3" type="audio/mpeg">
+        <source src="audio/Christina Perri - A Thousand Years _ Lirik Lagu Terjemahan.mp3" type="audio/mpeg">
     </audio>
 
     <div id="music-popup" class="music-popup">
@@ -21,9 +21,9 @@
         <img src="img/so.jpeg" alt="Album Cover" class="album-cover">
         <div class="music-info">
             <div class="marquee-wrapper">
-                <p class="song-title">Shape Of My Heart</p>
+                <p class="song-title">A Thousand Years</p>
             </div>
-            <p class="artist-name">Backstreet Boys</p>
+            <p class="artist-name">Christina Perri</p>
         </div>
         <button id="play-pause-btn" class="play-pause-btn" onclick="toggleMusic()">
             <!-- SVG Pause Icon -->
@@ -86,7 +86,7 @@
             <h1 class="aesthetic-font fade-in-text">Happy Birthday,<br>My Everything</h1>
             <p class="aesthetic-font fade-in-text"
                 style="font-size: 1.3rem; color: #ffffff; margin-top: -5px; margin-bottom: 10px; letter-spacing: 2px;">-
-                Tsurayya Amanda -</p>
+                Novanda -</p>
             <img src="img/foto-pacar.png" alt="Foto Pacar" class="birthday-photo fade-in-text">
             <p class="typing-text">Hari ini adalah hari yang paling spesial karena di hari ini, semesta membawa kamu ke
                 dunia.</p>
@@ -124,31 +124,31 @@
             <div class="solar-system">
                 <div class="orbit-track">
 
-                    <div class="planet-card item1" data-caption="Sei Sapi">
+                    <div class="planet-card item1" data-caption="Mie Ayam">
                         <img src="img/favorite-food.jpg" alt="Food">
                         <p class="planet-caption">Your favorite food</p>
                     </div>
 
-                    <div class="planet-card item2" data-caption="Ice Americano">
+                    <div class="planet-card item2" data-caption="Stawberry Milk">
                         <img src="img/favorite-drink.jpg" alt="Drink">
                         <p class="planet-caption">Your favorite drink</p>
                     </div>
 
                     <div class="planet-card item3"
-                        data-embed="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v?utm_source=generator&si=b884de3e2c144942"
-                        data-caption="Perfect - Ed Sheeran">
-                        <img src="img/favorite-song.jpg" alt="Song">
+                        data-embed="https://open.spotify.com/embed/track/3kfVlzPUsy7x1MiPHRuFr0?utm_source=generator&si=94fed18d3ce845d7"
+                        data-caption="Negoro Angin - Denny Caknan">
+                        <img src="img/favorite-song.png" alt="Song">
                         <p class="planet-caption">Your favorite song</p>
                     </div>
 
                     <div class="planet-card item4"
-                        data-embed="https://www.youtube.com/embed/VBR6ZUZEhUI?si=u-zFwsDbj5SD9k_f"
-                        data-caption="Nadia Omara">
+                        data-embed="https://www.youtube.com/embed/4xOwqTzSiCc?si=Gn7B7z184p8zo3WK"
+                        data-caption="Tanboy Kun">
                         <img src="img/favorite-yt.jpg" alt="YouTube Video">
                         <p class="planet-caption">Your favorite Youtube Channel</p>
                     </div>
 
-                    <div class="planet-card item5" data-caption="Bayu Hendriawan">
+                    <div class="planet-card item5" data-caption="Ningrum">
                         <img src="img/favorite-person.jpeg" alt="Person">
                         <p class="planet-caption">Your favorite person</p>
                     </div>
@@ -198,6 +198,80 @@
             </div>
         </section>
 
+        <section class="slide photo-panel show-on-scroll" id="video-memories-section">
+            <div class="video-memories-grid">
+                <!-- Video 1 -->
+                <div class="video-card" id="video-card-1">
+                    <video id="memory-video-1" class="memory-video" src="video/1.mp4" autoplay loop muted playsinline
+                        webkit-playsinline preload="auto"></video>
+                    <div class="video-controls-overlay">
+                        <button type="button" class="video-ctrl-btn btn-mute-toggle" data-video="memory-video-1"
+                            aria-label="Unmute atau Mute Video">
+                            <!-- Icon Muted (Default) -->
+                            <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <line x1="23" y1="9" x2="17" y2="15"></line>
+                                <line x1="17" y1="9" x2="23" y2="15"></line>
+                            </svg>
+                            <!-- Icon Unmuted -->
+                            <svg class="icon-unmuted" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="display: none;">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                            </svg>
+                        </button>
+                        <button type="button" class="video-ctrl-btn btn-fullscreen-toggle" data-video="memory-video-1"
+                            aria-label="Full Screen Video">
+                            <svg class="icon-fullscreen" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card" id="video-card-2">
+                    <video id="memory-video-2" class="memory-video" src="video/2.mp4" autoplay loop muted playsinline
+                        webkit-playsinline preload="auto"></video>
+                    <div class="video-controls-overlay">
+                        <button type="button" class="video-ctrl-btn btn-mute-toggle" data-video="memory-video-2"
+                            aria-label="Unmute atau Mute Video">
+                            <!-- Icon Muted (Default) -->
+                            <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <line x1="23" y1="9" x2="17" y2="15"></line>
+                                <line x1="17" y1="9" x2="23" y2="15"></line>
+                            </svg>
+                            <!-- Icon Unmuted -->
+                            <svg class="icon-unmuted" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="display: none;">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                            </svg>
+                        </button>
+                        <button type="button" class="video-ctrl-btn btn-fullscreen-toggle" data-video="memory-video-2"
+                            aria-label="Full Screen Video">
+                            <svg class="icon-fullscreen" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="slide photo-panel show-on-scroll">
             <div class="polaroid-grid">
                 <div class="polaroid">
@@ -214,7 +288,7 @@
                 </div>
                 <div class="polaroid">
                     <img src="img/beautiful.jpeg" alt="Foto Pribadi 4">
-                    <p class="caption">Beautiful</p>
+                    <p class="caption">Handsome</p>
                 </div>
             </div>
         </section>
@@ -236,8 +310,7 @@
             <hr style="border: 0; border-top: 1px solid rgba(255,182,193,0.3); margin-bottom: 20px;">
             <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 5px;">Dari orang yang paling bersyukur memilikimu,
             </p>
-            <p class="sender-name aesthetic-font baby-pink-text" style="font-size: 2rem; margin-top: 5px;">Bayu
-                Hendriawan</p>
+            <p class="sender-name aesthetic-font baby-pink-text" style="font-size: 2rem; margin-top: 5px;">Ningrum</p>
 
             <!-- Tombol Tiup Lilin -->
             <button id="btn-tiup-lilin" class="btn-tiup-lilin" onclick="bukaHalamanLilin()">🎂 Tiup Lilin</button>
@@ -274,18 +347,23 @@
                         </div>
                     </div>
 
-                    <!-- Kue -->
+                    <!-- Kue Coklat Strawberry -->
                     <div class="cake">
+                        <div class="cake-strawberries">
+                            <span>🍓</span><span>🍓</span><i class="candle-gap"></i><span>🍓</span><span>🍓</span>
+                        </div>
                         <div class="cake-top"></div>
-                        <div class="cake-middle"></div>
-                        <div class="cake-bottom"></div>
                         <div class="cake-frosting">
                             <span></span><span></span><span></span><span></span><span></span>
                             <span></span><span></span><span></span><span></span>
                         </div>
+                        <div class="cake-middle"></div>
+                        <div class="cake-filling"></div>
+                        <div class="cake-bottom"></div>
                         <div class="cake-decoration">
-                            <span>🌸</span><span>✨</span><span>🌸</span><span>✨</span><span>🌸</span>
+                            <span>🍓</span><span>🍫</span><span>🍓</span><span>🍫</span><span>🍓</span>
                         </div>
+                        <div class="cake-plate"></div>
                     </div>
                 </div>
 
