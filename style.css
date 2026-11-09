@@ -1457,7 +1457,7 @@ body {
 }
 
 #pin-input {
-    width: 80%;
+    width: 85%;
     padding: 12px;
     font-size: 1.5rem;
     text-align: center;
@@ -1466,7 +1466,7 @@ body {
     outline: none;
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     margin-bottom: 20px;
     transition: all 0.3s ease;
 }
